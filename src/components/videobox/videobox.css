@@ -1,0 +1,37 @@
+.video-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.caller-video {
+  width: 45%;
+  height: 50vh !important;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.caller-screen {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.reciever-video {
+  width: 45%;
+  height: 50vh !important;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.reciever-screen {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  background-color: red;
+}
